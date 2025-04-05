@@ -1,10 +1,12 @@
 import "./App.css";
-
+import { Route, Routes } from "react-router-dom";
 function App() {
   return (
-    <div className="App">
-      <h2>YouTube</h2>
-    </div>
+    <>
+      <Routes>
+        <Route />
+      </Routes>
+    </>
   );
 }
 
